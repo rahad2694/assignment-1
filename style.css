@@ -18,6 +18,11 @@ body{
 .half-width-special1{
     width: 40%;
     padding-left: 150px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position-x: 380px;
+    background-position-y: 172px;
 }
 .half-width-special1 img{
     width: 70%;
@@ -99,4 +104,22 @@ a{
 }
 .section-5-image{
     margin-left: 50px;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+footer p{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Licorice', cursive;
+}
+.violet-color{
+    color: violet;
+}
+footer small{
+    color: whitesmoke;
 }
