@@ -6,6 +6,9 @@ body{
     margin-left: 110px;
     margin-right: 20px;
 }
+.vertical-border{
+    border-left: 4px solid tomato;
+}
 .half-width-special{
     width: 40%;
 }
