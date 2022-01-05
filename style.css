@@ -12,8 +12,13 @@ body{
 .flexible-display{
     display: flex;
 }
+.half-width h1{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
 h1{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 30px;
 }
 a{
@@ -30,4 +35,41 @@ a{
 }
 .half-width p{
     margin-bottom: 30px;
+}
+.three-items{
+    padding: 5px 100px 5px 40px;
+    margin: 0 250px 0 230px;
+}
+.one-third-width1{
+    width: 32%;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: lightblue;
+}
+.one-third-width2{
+    width: 32%;
+    margin: 10px;
+    padding: 25px 25px 5px 25px;
+    border-radius: 15px;
+    background-color: lightsalmon;
+}
+.one-third-width3{
+    width: 32%;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: lightgreen;
+}
+.reduced-width{
+    width: 60%;
+}
+.one-third-width2 img{
+    width: 60%;
+}
+.one-third-width3 img{
+    width: 60%;
+}
+.centring{
+    text-align: center;
 }
