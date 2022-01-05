@@ -6,11 +6,25 @@ body{
     margin-left: 110px;
     margin-right: 20px;
 }
+.half-width-special{
+    width: 40%;
+}
 .half-width img{
     width: 60%;
 }
+.half-width-special img{
+    width: 70%;
+}
+.half-width-special1{
+    width: 40%;
+    padding-left: 150px;
+}
+.half-width-special1 img{
+    width: 70%;
+}
 .flexible-display{
     display: flex;
+    margin-top: 60px;
 }
 .half-width h1{
     font-size: 45px;
@@ -72,4 +86,10 @@ a{
 }
 .centring{
     text-align: center;
+}
+.section-3{
+    padding: 0 10px 0 200px;
+}
+.section-4{
+    padding: 5px 10px 0px 200px;
 }
