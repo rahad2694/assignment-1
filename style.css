@@ -16,6 +16,18 @@ h1{
     font-weight: 700;
     font-size: 30px;
 }
+a{
+   text-decoration: none; 
+}
 .orange-color{
     color: orange;
+}
+.design-button{
+    color: white;
+    padding: 8px 32px;
+    border-radius: 5px;
+    background-image: linear-gradient(red, tomato);
+}
+.half-width p{
+    margin-bottom: 30px;
 }
